@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "graphicar"
+    }
+  },
+  "defaultProject": "graphicar",
+  "cli": {
+    "analytics": "e32cd024-5824-407d-954c-23aed3082079"
+  }
 }
