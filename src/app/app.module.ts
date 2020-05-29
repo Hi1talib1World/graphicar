@@ -7,6 +7,7 @@ import { CardsComponent } from './cards/cards.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderCartComponent } from './layout/components/header-cart/header-cart.component';
+import { HeaderSearchComponent } from './layout/components/header-search/header-search.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderCartComponent } from './layout/components/header-cart/header-cart
     CardsComponent,
     HeaderComponent,
     FooterComponent,
-    HeaderCartComponent
+    HeaderCartComponent,
+    HeaderSearchComponent
   ],
   imports: [
     BrowserModule,
