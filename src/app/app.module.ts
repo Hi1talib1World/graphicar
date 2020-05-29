@@ -13,6 +13,9 @@ import { CategoryMobileMenuComponent } from './layout/components/category-mobile
 import { CategoriesMenuDropdownComponent } from './layout/components/categories-menu-dropdown/categories-menu-dropdown.component';
 import { ProfileDropdownComponent } from './layout/components/profile-dropdown/profile-dropdown.component';
 import { BrandMenuDropdownComponent } from './layout/components/brand-menu-dropdown/brand-menu-dropdown.component';
+import { FooterSocialLinksComponent } from './layout/footer/components/footer-social-links/footer-social-links.component';
+import { FooterContactInfoComponent } from './layout/footer/components/footer-contact-info/footer-contact-info.component';
+import { FooterQuickLinksComponent } from './layout/footer/components/footer-quick-links/footer-quick-links.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { BrandMenuDropdownComponent } from './layout/components/brand-menu-dropd
     CategoryMobileMenuComponent,
     CategoriesMenuDropdownComponent,
     ProfileDropdownComponent,
-    BrandMenuDropdownComponent
+    BrandMenuDropdownComponent,
+    FooterSocialLinksComponent,
+    FooterContactInfoComponent,
+    FooterQuickLinksComponent
   ],
   imports: [
     BrowserModule,
