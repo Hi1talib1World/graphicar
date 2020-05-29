@@ -12,6 +12,7 @@ import { HeaderHelpDropdownComponent } from './layout/components/header-help-dro
 import { CategoryMobileMenuComponent } from './layout/components/category-mobile-menu/category-mobile-menu.component';
 import { CategoriesMenuDropdownComponent } from './layout/components/categories-menu-dropdown/categories-menu-dropdown.component';
 import { ProfileDropdownComponent } from './layout/components/profile-dropdown/profile-dropdown.component';
+import { BrandMenuDropdownComponent } from './layout/components/brand-menu-dropdown/brand-menu-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProfileDropdownComponent } from './layout/components/profile-dropdown/p
     HeaderHelpDropdownComponent,
     CategoryMobileMenuComponent,
     CategoriesMenuDropdownComponent,
-    ProfileDropdownComponent
+    ProfileDropdownComponent,
+    BrandMenuDropdownComponent
   ],
   imports: [
     BrowserModule,
