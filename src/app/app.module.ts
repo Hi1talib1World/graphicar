@@ -8,6 +8,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderCartComponent } from './layout/components/header-cart/header-cart.component';
 import { HeaderSearchComponent } from './layout/components/header-search/header-search.component';
+import { HeaderHelpDropdownComponent } from './layout/components/header-help-dropdown/header-help-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderSearchComponent } from './layout/components/header-search/header-
     HeaderComponent,
     FooterComponent,
     HeaderCartComponent,
-    HeaderSearchComponent
+    HeaderSearchComponent,
+    HeaderHelpDropdownComponent
   ],
   imports: [
     BrowserModule,
