@@ -11,6 +11,7 @@ import { HeaderSearchComponent } from './layout/components/header-search/header-
 import { HeaderHelpDropdownComponent } from './layout/components/header-help-dropdown/header-help-dropdown.component';
 import { CategoryMobileMenuComponent } from './layout/components/category-mobile-menu/category-mobile-menu.component';
 import { CategoriesMenuDropdownComponent } from './layout/components/categories-menu-dropdown/categories-menu-dropdown.component';
+import { ProfileDropdownComponent } from './layout/components/profile-dropdown/profile-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CategoriesMenuDropdownComponent } from './layout/components/categories-
     HeaderSearchComponent,
     HeaderHelpDropdownComponent,
     CategoryMobileMenuComponent,
-    CategoriesMenuDropdownComponent
+    CategoriesMenuDropdownComponent,
+    ProfileDropdownComponent
   ],
   imports: [
     BrowserModule,
