@@ -10,7 +10,7 @@ import { Store } from '@ngrx/store';
 import { Subscription, Observable } from 'rxjs';
 import { CheckoutService } from './core/services/checkout.service';
 import {
-  Component,
+  
   OnInit,
   OnDestroy,
   Inject,
@@ -24,7 +24,7 @@ import { AuthActions } from './auth/actions/auth.actions';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'graphicar';
